@@ -1,0 +1,71 @@
+
+header, .instructions, .score, .timeRemaining, .questions {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 100%;
+    line-height: 150%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    padding: 5px;
+    width: 60%;
+    align-content: center;
+    background-color: #ffffff;
+    display: none;
+
+}
+
+.startScreen {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    width: 60%;
+    height: 450px;
+    margin: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.moveIt {
+    position:relative;
+    top:150px;
+    padding:5px;
+    font-size:150%;
+}
+
+
+header {
+    font-size: 150%;
+}
+
+span {
+    font-weight: 600;
+}
+
+label.submit {
+    position: relative;
+    top: -43px;
+}
+.submit {
+    outline: none;
+}
+
+.submit:hover {
+    transform: rotate(-20deg);
+}
+
+.submit:active {
+    transform: rotate(20deg);
+}
+
+body {
+    font-family: "Slabo 27px", serif;
+    font-weight: 550;
+    background-image: url("http://www.hanedanrpg.com/photos/hanedanrpg/25/120789.jpg");
+    padding: 25px;
+}
